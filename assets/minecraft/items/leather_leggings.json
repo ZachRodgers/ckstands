@@ -25,6 +25,7 @@
             {
               "when": {
                 "text": "Left leg rotation",
+                "type": "text",
                 "color": "white",
                 "italic": false
               },
@@ -67,7 +68,17 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/leather_leggings"
+        "model": "minecraft:item/leather_leggings",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": [
+              0.62,
+              0.4,
+              0.25
+            ]
+          }
+        ]
       }
     }
   },

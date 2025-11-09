@@ -31,7 +31,7 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/smooth_stone_slab"
+        "model": "minecraft:block/smooth_stone_slab"
       }
     }
   }

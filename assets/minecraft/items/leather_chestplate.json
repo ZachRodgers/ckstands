@@ -31,7 +31,18 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/leather_chestplate"
+        "model": "minecraft:item/leather_chestplate",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": [
+              0.62,
+              0.4,
+              0.25
+            ]
+          }
+        ]
+        
       }
     }
   }

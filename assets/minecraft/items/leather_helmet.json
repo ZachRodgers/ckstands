@@ -31,7 +31,17 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/leather_helmet"
+        "model": "minecraft:item/leather_helmet",
+        "tints": [
+          {
+            "type": "minecraft:dye",
+            "default": [
+              0.62,
+              0.4,
+              0.25
+            ]
+          }
+        ]
       }
     }
   }
