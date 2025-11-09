@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "custom",
+            "prefix": "custom/"
+        },
+        {
+            "type": "directory",
+            "source": "custom_model",
+            "prefix": "custom_model/"
+        }
+    ]
+}

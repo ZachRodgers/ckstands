@@ -1,0 +1,38 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:enchantment_glint_override",
+    "cases": [
+      {
+        "when": true,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/base_plate_selected"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "Base plate",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/base_plate"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/smooth_stone_slab"
+      }
+    }
+  }
+}
