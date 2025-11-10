@@ -6,4 +6,5 @@ Updates the UI for the Armour Stand Plugin to be much more vissually intuative.
 <img width="504" height="369" alt="image" src="https://github.com/user-attachments/assets/681b867f-1ebb-46a1-9568-4079c8f66156" />
 
 ### After
-<img width="500" height="369" alt="image" src="https://github.com/user-attachments/assets/101d3d82-18da-475d-886c-ce6441c7d2d6" />
+<img width="501" height="370" alt="image" src="https://github.com/user-attachments/assets/dbb807d3-ce3e-42f2-ba7c-61e9ed4cb1c3" />
+
