@@ -1,11 +1,16 @@
 {
   "model": {
     "type": "minecraft:select",
+    "model": "minecraft:item/breeze_rod",
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Armour Stand Wand",
+        "when": {
+          "text": "Armour Stand Wand",
+          "color": "yellow",
+          "italic": false
+        },
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/armour_stand_wand"
