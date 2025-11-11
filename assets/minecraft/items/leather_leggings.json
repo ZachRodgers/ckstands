@@ -64,6 +64,17 @@
             "type": "minecraft:model",
             "model": "minecraft:item/right_leg_rotation"
           }
+        },
+        {
+          "when": {
+            "text": "Legs item",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/legs_item"
+          }
         }
       ],
       "fallback": {

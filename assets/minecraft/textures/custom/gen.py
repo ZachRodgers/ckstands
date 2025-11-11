@@ -12,7 +12,9 @@ pngs = [
     "copy_paste.png","left_arm_rotation.png","position.png","size.png","visibility_selected.png",
     "copy_paste_selected.png","left_arm_rotation_selected.png","position_selected.png","size_selected.png",
     "equipmented_selected.png","left_hand_item.png","reset.png","step_forwards.png",
-    "equipment.png","left_leg_rotation.png","reset_selected.png","step_forwards_selected.png"
+    "equipment.png","left_leg_rotation.png","reset_selected.png","step_forwards_selected.png",
+    "head_item.png", "head_item_selected.png", "body_item.png",
+    "legs_item.png", "feet_item.png"
 ]
 
 out_dir = Path(".")

@@ -27,6 +27,17 @@
             "type": "minecraft:model",
             "model": "minecraft:item/head_rotation"
           }
+        },
+        {
+          "when": {
+            "text": "Head item",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/head_item"
+          }
         }
       ],
       "fallback": {
