@@ -1,0 +1,35 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": {
+          "text": "Feet item",
+          "color": "white",
+          "italic": false
+        },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/feet_item"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/leather_boots",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": [
+            0.62,
+            0.4,
+            0.25
+          ]
+        }
+      ]
+    }
+  }
+}
+

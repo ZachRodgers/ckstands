@@ -7,8 +7,22 @@
       {
         "when": true,
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/body_rotation_selected"
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:custom_name",
+          "cases": [
+            {
+              "when": {
+                "text": "Body rotation",
+                "color": "white",
+                "italic": false
+              },
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/body_rotation_selected"
+              }
+            }
+          ]
         }
       }
     ],
@@ -26,6 +40,17 @@
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/body_rotation"
+          }
+        },
+        {
+          "when": {
+            "text": "Body item",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/body_item"
           }
         }
       ],

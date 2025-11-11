@@ -27,6 +27,17 @@
             "type": "minecraft:model",
             "model": "minecraft:item/left_arm_rotation"
           }
+        },
+        {
+          "when": {
+            "text": "Left hand item",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/left_hand_item"
+          }
         }
       ],
       "fallback": {
