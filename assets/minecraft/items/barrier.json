@@ -1,0 +1,24 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:custom_name",
+        "cases": [
+            {
+                "when": {
+                    "text": "Unused",
+                    "color": "white",
+                    "italic": false
+                },
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/unused"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/barrier"
+        }
+    }
+}
