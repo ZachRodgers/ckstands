@@ -2,37 +2,43 @@
   "model": {
     "type": "minecraft:select",
     "property": "minecraft:component",
-    "component": "minecraft:enchantment_glint_override",
+    "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": true,
+        "when": {
+          "text": "Visibility",
+          "color": "white",
+          "italic": false
+        },
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/visibility_selected"
-        }
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:custom_name",
-      "cases": [
-        {
-          "when": {
-            "text": "Visibility",
-            "color": "white",
-            "italic": false
-          },
-          "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:enchantment_glint_override",
+          "cases": [
+            {
+              "when": true,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/visibility_selected"
+              }
+            }
+          ],
+          "fallback": {
             "type": "minecraft:model",
             "model": "minecraft:item/visibility"
           }
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/potion"
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
     }
   }
 }
