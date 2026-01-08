@@ -13,6 +13,34 @@
       }
     ],
     "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": {
+            "text": "Head rotation",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/head_rotation"
+          }
+        },
+        {
+          "when": {
+            "text": "Head item",
+            "color": "white",
+            "italic": false
+          },
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/head_item"
+          }
+        }
+      ],
+      "fallback": {
     "type": "minecraft:select",
     "cases": [
       {
@@ -171,5 +199,6 @@
     },
     "property": "minecraft:trim_material"
   }
+    }
   }
 }
